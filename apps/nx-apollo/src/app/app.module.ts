@@ -5,7 +5,6 @@ import { FeatureSetsModule } from '@nx-apollo-angular-example/feature-sets';
 import { AppComponent } from './app.component';
 import { GraphQLModule } from './graphql.module';
 
-
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, HttpClientModule, GraphQLModule, FeatureSetsModule],

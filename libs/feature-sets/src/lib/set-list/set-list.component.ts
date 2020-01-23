@@ -12,6 +12,8 @@ export class SetListComponent {
   sets$: Observable<Set[]>;
 
   constructor(private setListGQL: SetListGQL) {
-    this.sets$ = this.setListGQL.watch().valueChanges.pipe(map((result) => result.data.allSets));
+    this.sets$ = this.setListGQL
+      .watch()
+      .valueChanges.pipe(map(result => result.data.allSets));
   }
 }
