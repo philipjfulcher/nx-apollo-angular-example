@@ -549,6 +549,8 @@ And now start your Angular app:
 
 Browse to [http://localhost:4200](http://localhost:4200) and see the results of our work!
 
+<p align="center"><img src="https://raw.githubusercontent.com/philipjfulcher/nx-apollo-angular-example/master/app-demo.gif" width="680"></p>
+
 ## Further Reading
 NestJS
 - [GraphQL Quick Start](https://docs.nestjs.com/graphql/quick-start)
